@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43E8E1D51CE8D08800F0CEAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E1D41CE8D08800F0CEAB /* main.m */; };
+		43E8E1D81CE8D08800F0CEAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E1D71CE8D08800F0CEAB /* AppDelegate.m */; };
+		43E8E1DB1CE8D08800F0CEAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E1DA1CE8D08800F0CEAB /* ViewController.m */; };
+		43E8E1DE1CE8D08800F0CEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E8E1DC1CE8D08800F0CEAB /* Main.storyboard */; };
+		43E8E1E01CE8D08800F0CEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E8E1DF1CE8D08800F0CEAB /* Assets.xcassets */; };
+		43E8E1E31CE8D08800F0CEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E8E1E11CE8D08800F0CEAB /* LaunchScreen.storyboard */; };
+		43E8E1EE1CE8D08800F0CEAB /* TTTNotificationHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E1ED1CE8D08800F0CEAB /* TTTNotificationHubTests.m */; };
+		43E8E1F91CE8D08900F0CEAB /* TTTNotificationHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E1F81CE8D08900F0CEAB /* TTTNotificationHubUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43E8E1EA1CE8D08800F0CEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43E8E1C81CE8D08800F0CEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E8E1CF1CE8D08800F0CEAB;
+			remoteInfo = TTTNotificationHub;
+		};
+		43E8E1F51CE8D08900F0CEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43E8E1C81CE8D08800F0CEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E8E1CF1CE8D08800F0CEAB;
+			remoteInfo = TTTNotificationHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43E8E1D01CE8D08800F0CEAB /* TTTNotificationHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTNotificationHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E8E1D41CE8D08800F0CEAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43E8E1D61CE8D08800F0CEAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43E8E1D71CE8D08800F0CEAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43E8E1D91CE8D08800F0CEAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43E8E1DA1CE8D08800F0CEAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43E8E1DD1CE8D08800F0CEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43E8E1DF1CE8D08800F0CEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43E8E1E21CE8D08800F0CEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43E8E1E41CE8D08800F0CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E8E1E91CE8D08800F0CEAB /* TTTNotificationHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTNotificationHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E8E1ED1CE8D08800F0CEAB /* TTTNotificationHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTNotificationHubTests.m; sourceTree = "<group>"; };
+		43E8E1EF1CE8D08800F0CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E8E1F41CE8D08900F0CEAB /* TTTNotificationHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTNotificationHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E8E1F81CE8D08900F0CEAB /* TTTNotificationHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTNotificationHubUITests.m; sourceTree = "<group>"; };
+		43E8E1FA1CE8D08900F0CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43E8E1CD1CE8D08800F0CEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E8E1E61CE8D08800F0CEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E8E1F11CE8D08800F0CEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43E8E1C71CE8D08800F0CEAB = {
+			isa = PBXGroup;
+			children = (
+				43E8E1D21CE8D08800F0CEAB /* TTTNotificationHub */,
+				43E8E1EC1CE8D08800F0CEAB /* TTTNotificationHubTests */,
+				43E8E1F71CE8D08900F0CEAB /* TTTNotificationHubUITests */,
+				43E8E1D11CE8D08800F0CEAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43E8E1D11CE8D08800F0CEAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E8E1D01CE8D08800F0CEAB /* TTTNotificationHub.app */,
+				43E8E1E91CE8D08800F0CEAB /* TTTNotificationHubTests.xctest */,
+				43E8E1F41CE8D08900F0CEAB /* TTTNotificationHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E8E1D21CE8D08800F0CEAB /* TTTNotificationHub */ = {
+			isa = PBXGroup;
+			children = (
+				43E8E1D61CE8D08800F0CEAB /* AppDelegate.h */,
+				43E8E1D71CE8D08800F0CEAB /* AppDelegate.m */,
+				43E8E1D91CE8D08800F0CEAB /* ViewController.h */,
+				43E8E1DA1CE8D08800F0CEAB /* ViewController.m */,
+				43E8E1DC1CE8D08800F0CEAB /* Main.storyboard */,
+				43E8E1DF1CE8D08800F0CEAB /* Assets.xcassets */,
+				43E8E1E11CE8D08800F0CEAB /* LaunchScreen.storyboard */,
+				43E8E1E41CE8D08800F0CEAB /* Info.plist */,
+				43E8E1D31CE8D08800F0CEAB /* Supporting Files */,
+			);
+			path = TTTNotificationHub;
+			sourceTree = "<group>";
+		};
+		43E8E1D31CE8D08800F0CEAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43E8E1D41CE8D08800F0CEAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43E8E1EC1CE8D08800F0CEAB /* TTTNotificationHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				43E8E1ED1CE8D08800F0CEAB /* TTTNotificationHubTests.m */,
+				43E8E1EF1CE8D08800F0CEAB /* Info.plist */,
+			);
+			path = TTTNotificationHubTests;
+			sourceTree = "<group>";
+		};
+		43E8E1F71CE8D08900F0CEAB /* TTTNotificationHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43E8E1F81CE8D08900F0CEAB /* TTTNotificationHubUITests.m */,
+				43E8E1FA1CE8D08900F0CEAB /* Info.plist */,
+			);
+			path = TTTNotificationHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43E8E1CF1CE8D08800F0CEAB /* TTTNotificationHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E8E1FD1CE8D08900F0CEAB /* Build configuration list for PBXNativeTarget "TTTNotificationHub" */;
+			buildPhases = (
+				43E8E1CC1CE8D08800F0CEAB /* Sources */,
+				43E8E1CD1CE8D08800F0CEAB /* Frameworks */,
+				43E8E1CE1CE8D08800F0CEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTNotificationHub;
+			productName = TTTNotificationHub;
+			productReference = 43E8E1D01CE8D08800F0CEAB /* TTTNotificationHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43E8E1E81CE8D08800F0CEAB /* TTTNotificationHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E8E2001CE8D08900F0CEAB /* Build configuration list for PBXNativeTarget "TTTNotificationHubTests" */;
+			buildPhases = (
+				43E8E1E51CE8D08800F0CEAB /* Sources */,
+				43E8E1E61CE8D08800F0CEAB /* Frameworks */,
+				43E8E1E71CE8D08800F0CEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43E8E1EB1CE8D08800F0CEAB /* PBXTargetDependency */,
+			);
+			name = TTTNotificationHubTests;
+			productName = TTTNotificationHubTests;
+			productReference = 43E8E1E91CE8D08800F0CEAB /* TTTNotificationHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43E8E1F31CE8D08800F0CEAB /* TTTNotificationHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E8E2031CE8D08900F0CEAB /* Build configuration list for PBXNativeTarget "TTTNotificationHubUITests" */;
+			buildPhases = (
+				43E8E1F01CE8D08800F0CEAB /* Sources */,
+				43E8E1F11CE8D08800F0CEAB /* Frameworks */,
+				43E8E1F21CE8D08800F0CEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43E8E1F61CE8D08900F0CEAB /* PBXTargetDependency */,
+			);
+			name = TTTNotificationHubUITests;
+			productName = TTTNotificationHubUITests;
+			productReference = 43E8E1F41CE8D08900F0CEAB /* TTTNotificationHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E8E1C81CE8D08800F0CEAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = an_ttt;
+				TargetAttributes = {
+					43E8E1CF1CE8D08800F0CEAB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					43E8E1E81CE8D08800F0CEAB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 43E8E1CF1CE8D08800F0CEAB;
+					};
+					43E8E1F31CE8D08800F0CEAB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 43E8E1CF1CE8D08800F0CEAB;
+					};
+				};
+			};
+			buildConfigurationList = 43E8E1CB1CE8D08800F0CEAB /* Build configuration list for PBXProject "TTTNotificationHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43E8E1C71CE8D08800F0CEAB;
+			productRefGroup = 43E8E1D11CE8D08800F0CEAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E8E1CF1CE8D08800F0CEAB /* TTTNotificationHub */,
+				43E8E1E81CE8D08800F0CEAB /* TTTNotificationHubTests */,
+				43E8E1F31CE8D08800F0CEAB /* TTTNotificationHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43E8E1CE1CE8D08800F0CEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E8E1E31CE8D08800F0CEAB /* LaunchScreen.storyboard in Resources */,
+				43E8E1E01CE8D08800F0CEAB /* Assets.xcassets in Resources */,
+				43E8E1DE1CE8D08800F0CEAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E8E1E71CE8D08800F0CEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E8E1F21CE8D08800F0CEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E8E1CC1CE8D08800F0CEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E8E1DB1CE8D08800F0CEAB /* ViewController.m in Sources */,
+				43E8E1D81CE8D08800F0CEAB /* AppDelegate.m in Sources */,
+				43E8E1D51CE8D08800F0CEAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E8E1E51CE8D08800F0CEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E8E1EE1CE8D08800F0CEAB /* TTTNotificationHubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43E8E1F01CE8D08800F0CEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E8E1F91CE8D08900F0CEAB /* TTTNotificationHubUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43E8E1EB1CE8D08800F0CEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43E8E1CF1CE8D08800F0CEAB /* TTTNotificationHub */;
+			targetProxy = 43E8E1EA1CE8D08800F0CEAB /* PBXContainerItemProxy */;
+		};
+		43E8E1F61CE8D08900F0CEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43E8E1CF1CE8D08800F0CEAB /* TTTNotificationHub */;
+			targetProxy = 43E8E1F51CE8D08900F0CEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43E8E1DC1CE8D08800F0CEAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E8E1DD1CE8D08800F0CEAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43E8E1E11CE8D08800F0CEAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43E8E1E21CE8D08800F0CEAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43E8E1FB1CE8D08900F0CEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43E8E1FC1CE8D08900F0CEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43E8E1FE1CE8D08900F0CEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTTNotificationHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "an-ttt.TTTNotificationHub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43E8E1FF1CE8D08900F0CEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTTNotificationHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "an-ttt.TTTNotificationHub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43E8E2011CE8D08900F0CEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTTNotificationHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "an-ttt.TTTNotificationHubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTTNotificationHub.app/TTTNotificationHub";
+			};
+			name = Debug;
+		};
+		43E8E2021CE8D08900F0CEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTTNotificationHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "an-ttt.TTTNotificationHubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTTNotificationHub.app/TTTNotificationHub";
+			};
+			name = Release;
+		};
+		43E8E2041CE8D08900F0CEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTTNotificationHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "an-ttt.TTTNotificationHubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTTNotificationHub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		43E8E2051CE8D08900F0CEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTTNotificationHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "an-ttt.TTTNotificationHubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTTNotificationHub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E8E1CB1CE8D08800F0CEAB /* Build configuration list for PBXProject "TTTNotificationHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E8E1FB1CE8D08900F0CEAB /* Debug */,
+				43E8E1FC1CE8D08900F0CEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E8E1FD1CE8D08900F0CEAB /* Build configuration list for PBXNativeTarget "TTTNotificationHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E8E1FE1CE8D08900F0CEAB /* Debug */,
+				43E8E1FF1CE8D08900F0CEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43E8E2001CE8D08900F0CEAB /* Build configuration list for PBXNativeTarget "TTTNotificationHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E8E2011CE8D08900F0CEAB /* Debug */,
+				43E8E2021CE8D08900F0CEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43E8E2031CE8D08900F0CEAB /* Build configuration list for PBXNativeTarget "TTTNotificationHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E8E2041CE8D08900F0CEAB /* Debug */,
+				43E8E2051CE8D08900F0CEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E8E1C81CE8D08800F0CEAB /* Project object */;
+}
