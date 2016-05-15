@@ -15,6 +15,8 @@
 		43E8E1E31CE8D08800F0CEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E8E1E11CE8D08800F0CEAB /* LaunchScreen.storyboard */; };
 		43E8E1EE1CE8D08800F0CEAB /* TTTNotificationHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E1ED1CE8D08800F0CEAB /* TTTNotificationHubTests.m */; };
 		43E8E1F91CE8D08900F0CEAB /* TTTNotificationHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E1F81CE8D08900F0CEAB /* TTTNotificationHubUITests.m */; };
+		43E8E20C1CE8D0BF00F0CEAB /* TTTNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E20A1CE8D0BF00F0CEAB /* TTTNotificationHub.m */; };
+		43E8E2171CE8E1DE00F0CEAB /* UIViewXXYBoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8E2161CE8E1DE00F0CEAB /* UIViewXXYBoom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		43E8E1F41CE8D08900F0CEAB /* TTTNotificationHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTNotificationHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E8E1F81CE8D08900F0CEAB /* TTTNotificationHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTNotificationHubUITests.m; sourceTree = "<group>"; };
 		43E8E1FA1CE8D08900F0CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E8E2091CE8D0BF00F0CEAB /* TTTNotificationHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNotificationHub.h; sourceTree = "<group>"; };
+		43E8E20A1CE8D0BF00F0CEAB /* TTTNotificationHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNotificationHub.m; sourceTree = "<group>"; };
+		43E8E2151CE8E1DD00F0CEAB /* TTTNotificationHub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TTTNotificationHub-Bridging-Header.h"; path = "TTTNotificationHub/TTTNotificationHub-Bridging-Header.h"; sourceTree = "<group>"; };
+		43E8E2161CE8E1DE00F0CEAB /* UIViewXXYBoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXXYBoom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		43E8E1D21CE8D08800F0CEAB /* TTTNotificationHub */ = {
 			isa = PBXGroup;
 			children = (
+				43E8E2071CE8D0BF00F0CEAB /* TTTNotificationHub */,
 				43E8E1D61CE8D08800F0CEAB /* AppDelegate.h */,
 				43E8E1D71CE8D08800F0CEAB /* AppDelegate.m */,
 				43E8E1D91CE8D08800F0CEAB /* ViewController.h */,
@@ -109,6 +116,7 @@
 				43E8E1DF1CE8D08800F0CEAB /* Assets.xcassets */,
 				43E8E1E11CE8D08800F0CEAB /* LaunchScreen.storyboard */,
 				43E8E1E41CE8D08800F0CEAB /* Info.plist */,
+				43E8E2151CE8E1DD00F0CEAB /* TTTNotificationHub-Bridging-Header.h */,
 				43E8E1D31CE8D08800F0CEAB /* Supporting Files */,
 			);
 			path = TTTNotificationHub;
@@ -138,6 +146,16 @@
 				43E8E1FA1CE8D08900F0CEAB /* Info.plist */,
 			);
 			path = TTTNotificationHubUITests;
+			sourceTree = "<group>";
+		};
+		43E8E2071CE8D0BF00F0CEAB /* TTTNotificationHub */ = {
+			isa = PBXGroup;
+			children = (
+				43E8E2161CE8E1DE00F0CEAB /* UIViewXXYBoom.swift */,
+				43E8E2091CE8D0BF00F0CEAB /* TTTNotificationHub.h */,
+				43E8E20A1CE8D0BF00F0CEAB /* TTTNotificationHub.m */,
+			);
+			path = TTTNotificationHub;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E8E1DB1CE8D08800F0CEAB /* ViewController.m in Sources */,
+				43E8E2171CE8E1DE00F0CEAB /* UIViewXXYBoom.swift in Sources */,
+				43E8E20C1CE8D0BF00F0CEAB /* TTTNotificationHub.m in Sources */,
 				43E8E1D81CE8D08800F0CEAB /* AppDelegate.m in Sources */,
 				43E8E1D51CE8D08800F0CEAB /* main.m in Sources */,
 			);
@@ -413,10 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TTTNotificationHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "an-ttt.TTTNotificationHub";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TTTNotificationHub/TTTNotificationHub/TTTNotificationHub-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -424,10 +447,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TTTNotificationHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "an-ttt.TTTNotificationHub";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TTTNotificationHub/TTTNotificationHub/TTTNotificationHub-Bridging-Header.h";
 			};
 			name = Release;
 		};
